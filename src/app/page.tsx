@@ -17,7 +17,7 @@ export default function Home() {
 
     let password = window.localStorage.getItem("password");
 
-    let response = await fetch("http://localhost:3000/api/describe", {
+    let response = await fetch("https://describe.qwq.sh/api/describe", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
